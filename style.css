@@ -34,7 +34,18 @@ a{
     color: rgb(115, 255, 0);
     text-align: center;
     font-family: fantasy;
+    text-decoration: none;
+    transition: all .3s ease;
 }
+
+.links a:hover {
+    color:#a9a9aa;
+}
+
+.cont a:hover {
+    color:#ffffff;
+}
+
 p{
     text-align: center;
     color: aliceblue;
@@ -160,6 +171,7 @@ p{
 
 
 .socials h6 {
-    margin: 15px;
+    font-size: 30px;
+    margin: 20px;
     padding: 10;
 }
