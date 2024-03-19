@@ -175,3 +175,21 @@ p{
     margin: 20px;
     padding: 10;
 }
+/*tablet and mobile phone code*/
+     /* Media queries for responsiveness */
+     @media only screen and (max-width: 767px) {
+        /* Adjust styles for tablets and smaller screens */
+         .container {
+            padding: 10px;
+             }
+         }
+    
+         @media only screen and (max-width: 480px) {
+            /* Adjust styles for mobile devices */
+            h1 {
+                font-size: 24px;
+             }
+            p {
+                font-size: 14px;
+            }
+        }
