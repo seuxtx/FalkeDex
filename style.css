@@ -37,7 +37,26 @@ a{
     text-decoration: none;
     transition: all .3s ease;
 }
+#sidebar {
+    position: fixed; /* Fixed positioning */
+    top: 50%; /* Position from the top */
+    transform: translateY(-50%); /* Center vertically */
+    right: 20px; /* Distance from the right side */
+    z-index: 999; /* Ensure it's above other content */
+}
 
+/* Style for the button */
+#playbtn {
+    background-color: #0806063b;
+    color: #ffffff;
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    font-size: 20px; /* Adjust font size as needed */
+}
+
+.play{
+    background-color: red;
+}
 .links a:hover {
     color:#a9a9aa;
 }
