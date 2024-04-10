@@ -177,6 +177,16 @@ p{
 .poke-grid .image:hover + .desc {
     opacity: 1;
 }
+
+.image{
+    margin-right: 10px;
+}
+
+/* .falkepoke{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
 .footer {
     margin-top: auto;
     text-align: center;
