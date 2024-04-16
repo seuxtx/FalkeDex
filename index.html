@@ -7,14 +7,27 @@
     <link href="style.css"  rel="stylesheet">
     <link rel="icon" type="image/png" href="./images/Screenshot_15.ico">
     <script src="music.js"></script>
+    <script src="togglepics.js"></script>
 </head>
 <body>
         
         <div id="sidebar">
             <!-- Button to play/pause music -->
             <button id="playbtn" onclick="playStop()">▷</button>
+
+        </div>
+        <div id="sidebar2">
+            
+            <button id="toggleButton">Toggle clothing</button>
         </div>
         
+        <div id="sidebar3">
+            <p>
+                <a href="#top">Back to Top</a>
+            </p>
+        </div>
+
+
     <div class="links">
         <p>
             <a href="#entries">Falkedex Entries</a>
@@ -34,7 +47,7 @@
         </p>
     </div>
 
-    <div class="summary">
+    <div id="top" class="summary">
         <h1>Falkedex</h1>
         <p>Falkedex is a project where I'll draw human forms of the entire pokedex. All pokegirls will have a nsfw version, which is exclusive to patreons, and patreons will also get the image without any text on it. The process and speed of Falkedex will depend on how many people support it from here, because I need to take a lot of commissions to live, and commissions demand a lot of time.</p>
         <p>Side Note: this is a project of Seux for full stack engineer course. It will be maintained but is a project for experience.</p>
@@ -42,14 +55,13 @@
     </div>
 
     <div class="container">
-        <section id="entries" class="falkpoke">
+        <section id="entries" class="falkepoke">
             <h2>FalkeDex Entries</h2>
-            <div class="poke-grid">
+            
+            <div class="pokemon-grid">
                 <div class="poke">
                     <div class="image">
-                        <a href="./images/001Bulba1.png" target="_blank">
                             <img src="./images/001Bulba1.png" alt="Abyssals" width="500" height="500">
-                        </a>
                     </div>
                     <div class="desc">
                         <h3>Bulba</h3>
@@ -57,9 +69,7 @@
                 </div>
                 <div class="poke">
                     <div class="image">
-                        <a href="./images/002Ivy1.png" target="_blank">
                             <img src="./images/002Ivy1.png" alt="Abyssals" width="500" height="500">
-                        </a>
                     </div>
                     <div class="desc">
                         <h3>Ivy</h3>
@@ -387,6 +397,14 @@
                 </div>
                 <div class="poke">
                     <div class="image">
+                        <img src="./images/0535Tymppy1.png" width="500" height="500">
+                    </div>
+                    <div class="desc">
+                        <h3>Tymppy</h3>
+                    </div>
+                </div>
+                <div class="poke">
+                    <div class="image">
                         <img src="./images/0858Hallie1.jpeg" alt="Abyssals" width="500" height="500">
                     </div>
                     <div class="desc">
@@ -401,7 +419,7 @@
         <h2>Owned Falkedex Entries</h2>
         <p>Hover over the characters to see who owns them.</p>
         <section id="owned" class="falkpoke">
-            <div class="poke-grid">
+            <div class="own-grid">
                 <div class="seux">
                     <div class="image">
                         <img src="./images/006Zard1.png" alt="Abyssals" width="500" height="500">
