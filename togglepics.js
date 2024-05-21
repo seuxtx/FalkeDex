@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "./images/nude/040Wiggly2.png",
         "./images/nude/041Zubs2.png",
         "./images/nude/Falkedex042_3.png",
+        "./images/nude/Howler3.png",
         "./images/0535Tymppy1.png",
         "./images/nude/hallie3.png"
     ];

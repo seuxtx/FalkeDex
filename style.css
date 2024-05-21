@@ -69,7 +69,8 @@ a{
     top: calc(50% + 50px); /* Position from the top with additional offset */
 }
 #sidebar3 {
-    top: calc(50% + 50px); /* Position from the top with additional offset */
+    top: calc(50% + 300px); /* Position from the top with additional offset */
+
 }
 
 
