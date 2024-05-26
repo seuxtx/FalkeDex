@@ -48,8 +48,8 @@ document.addEventListener("DOMContentLoaded", function() {
         "./images/nude/Falkedex042_3.png",
         "./images/nude/Howler3.png",
         "./images/0535Tymppy1.png",
-        "./images/nude/hallie3.png",
-        "./images/nude/Callisto3.jpg"
+        "./images/nude/Callisto3.jpg",
+        "./images/nude/hallie3.png"
     ];
 //Note tymppy has no alt clothing
     let isSet1 = true;
