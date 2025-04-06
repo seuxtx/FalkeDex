@@ -46,10 +46,12 @@ document.addEventListener("DOMContentLoaded", function() {
         "./images/nude/040Wiggly2.png",
         "./images/nude/041Zubs2.png",
         "./images/nude/Falkedex042_3.png",
+        "./images/nude/Penny6.png",
         "./images/nude/Karp2.jpg",
         "./images/nude/Gyaru2.jpg",
         "./images/nude/Howler3.png",
         "./images/nude/Arina2.jpg",
+        "./images/nude/Latz and Lotz COCK.jpg",
         "./images/0535Tymppy1.png",
         "./images/nude/Callisto3.jpg",
         "./images/nude/hallie3.png"
